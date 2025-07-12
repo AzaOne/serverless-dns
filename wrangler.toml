@@ -39,13 +39,13 @@ CLOUD_PLATFORM = "cloudflare"
 [env.prod]
 name = "serverless-dns"
 minify = true
-routes = [
-  "sky.rethinkdns.com/*",
-  "sky.bravedns.com/*",
-  "basic.rethinkdns.com/*",
-  "basic.bravedns.com/*",
-  "free.bravedns.com/*",
-]
+#routes = [
+#  "sky.rethinkdns.com/*",
+#  "sky.bravedns.com/*",
+#  "basic.rethinkdns.com/*",
+#  "basic.bravedns.com/*",
+#  "free.bravedns.com/*",
+#]
 # vars are not inherited
 # workers/platform/environment-variables#environment-variables-via-wrangler
 [env.prod.vars]
